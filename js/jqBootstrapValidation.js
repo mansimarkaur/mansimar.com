@@ -51,7 +51,7 @@
 
           $inputs.each(function (i, el) {
             var $this = $(el),
-              $controlGroup = $this.parents(".control-group").first();
+              $controlGroup = $this.parents(".form-group").first();
             if (
               $controlGroup.hasClass("warning")
             ) {
@@ -82,7 +82,7 @@
 
           // Get references to everything we're interested in
           var $this = $(this),
-            $controlGroup = $this.parents(".control-group").first(),
+            $controlGroup = $this.parents(".form-group").first(),
             $helpBlock = $controlGroup.find(".help-block").first(),
             $form = $this.parents("form").first(),
             validatorNames = [];
@@ -510,7 +510,7 @@
 
             var
               $this = $(this),
-              $controlGroup = $this.parents(".control-group").first(),
+              $controlGroup = $this.parents(".form-group").first(),
               $helpBlock = $controlGroup.find(".help-block").first();
 
             // remove our events
