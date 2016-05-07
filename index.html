@@ -61,10 +61,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Projects</a>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#portfolio">Projects</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#org">Experience</a>
@@ -84,10 +84,26 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in" >I'm a sophomore pursuing B.E. in Computer Science at Netaji Subhas Institute of Technology, New Delhi.</div>
-                <a href="#portfolio" class="page-scroll btn btn-xl">More about me</a>
+                <a href="#about" class="page-scroll btn btn-xl">More about me</a>
             </div>
         </div>
     </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                  <!--  <h3 class="section-subheading text-muted"></h3>-->
+                </div>
+            </div>
+            <div class ="ab">
+                <p class="text-muted">My skill set includes knowledge of C, C++, PHP, Java, JavaScript, HTML, CSS , WordPress, MySQL and Firebase.</p>
+                <p class="text-muted">Recently, I have worked on a client and server program based application with a GUI that relies on TCP for file exchange. I have also worked on developing a PHP based framework for automating A-B testing.</p>
+            </div>
+        </div>
+    </section>
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
@@ -99,34 +115,6 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/tcp.png" class="img-responsive" alt="" style="height:83%;width:83%">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>TCP File Transfer (Ongoing)</h4>
-                        <p class="text-muted">Java socket progamming and Java AWT</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/resume.jpg" class="img-responsive" alt="" style="height:94%;width:94%">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Resume Builder (Ongoing)</h4>
-                        <p class="text-muted">JavaScript, HTML and CSS</p>
-                    </div>
-                </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -142,17 +130,45 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/tcp.png" class="img-responsive" alt="" style="height:83%;width:83%">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>TCP File Transfer</h4>
+                        <p class="text-muted">Java socket progamming and Java AWT</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/treasure.jpg" class="img-responsive" alt="" style="height:100%;width:100%">
+                        <img src="img/portfolio/treasure.jpg" class="img-responsive" alt="" style="height:100%;width:88%;margin-left:6%">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Treasure Hunt Game</h4>
                         <p class="text-muted">PHP, MySQL, HTML, JavaScript and CSS</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/resume.jpg" class="img-responsive" alt="" style="height:94%;width:94%;margin-left:3%;">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Resume Builder (Ongoing)</h4>
+                        <p class="text-muted">JavaScript, HTML and CSS</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -166,7 +182,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>Disaster Management App</h4>
-                        <p class="text-muted">Firebase (JS), Google Maps API (JS), HTML and CSS</p>
+                        <p class="text-muted">Firebase (JS), Google Maps API (JS)</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item" style="margin-top: 0px;">
@@ -180,26 +196,9 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>GH-1 Website</h4>
-                        <p>(To be launched soon)</p>
                         <p class="text-muted">WordPress</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                  <!--  <h3 class="section-subheading text-muted"></h3>-->
-                </div>
-            </div>
-            <div class ="ab">
-                <p class="text-muted">My skill set includes knowledge of C, C++, PHP, Java, JavaScript, HTML, CSS , WordPress, MySQL and Firebase.</p>
-                <p class="text-muted">Currently, I am working on a client and server program based application with a GUI that relies on TCP for file exchange. Recently, I have also worked on developing a PHP based framework for automating A-B testing.</p>
             </div>
         </div>
     </section>
@@ -272,7 +271,7 @@
                         </li>
                         <li><a href="https://in.linkedin.com/in/mansimarkaur" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
                         </li>
-                        <li><a href="https://github.com/mansimarkaur" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-2x"aria-hidden="true"></i></a>
+                        <li><a href="https://github.com/mansimarkaur" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"aria-hidden="true"></i></a>
                         </li>
                         <li><a href="http://scr.im/mansimarkaur" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope"></i></a>
                         </li>
@@ -284,6 +283,38 @@
 
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>A-B Testing Framework</h2>
+                            <p class="item-intro text-muted">PHP and MySQL</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/ab.png" alt="">
+                            <p>Created a light-weight, modular framework using PHP (PDO) for automating A/B testing.<br>
+-   It acts as an HTTP reverse proxy for any backend serving the traffic.<br>
+-   It is able to split the incoming traffic amongst the segments.<br>
+-   It uses an adaptive algorithm to favor the winning segment while splitting the incoming traffic.<br>
+-   It tracks the goal and automatically declares a winner at the end of the mentioned time frame.<br>
+-   It is able to switch to the segment that wins statistically at the end of the experiment.</p>
+                            <p>View on <a href="https://github.com/sahildua2305/A-B-testing-PHP" id="git" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-3x"></i></a></p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -302,9 +333,9 @@
                             <h2>TCP File Transfer Application</h2>
                             <p class="item-intro text-muted">Java Socket Programming and Java AWT</p>
                             <img class="img-responsive img-centered" src="img/portfolio/tcp.png" alt="">
-                            <p>Working on a client and server program based application with a GUI that relies on TCP for file exchange.<br>
--  It is being developed using Java socket programming and Java AWT.<br>
--   It will allow the client to lookup in the server directories to choose which file to download and also upload files from own system onto the server.</p>
+                            <p>It is a client and server program based application with a GUI that relies on TCP for file exchange.<br>
+-  It is developed using Java socket programming and Java AWT.<br>
+-   It allows the client to choose which file to download from the server directories to choose which file to download and also upload files from own system onto the server.</p>
                             <p>View on <a href="https://github.com/kamsuri/FTP-java-project" id="git" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-3x" ></i></a></p>
 
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
@@ -334,38 +365,6 @@
                             <p>Developing an interactive resume builder using JavaScript.<br>
 - It allows the user to input entries in the class created and then it automatically builds the resume.</p>
                             <p>View on <a href="https://github.com/mansimarkaur/resume-builder" id="git" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-3x"></i></a></p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>A-B Testing Framework</h2>
-                            <p class="item-intro text-muted">PHP and MySQL</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/ab.png" alt="">
-                            <p>Created a light-weight, modular framework using PHP (PDO) for automating A/B testing.<br>
--   It acts as an HTTP reverse proxy for any backend serving the traffic.<br>
--   It is able to split the incoming traffic amongst the segments.<br>
--   It uses an adaptive algorithm to favor the winning segment while splitting the incoming traffic.<br>
--   It tracks the goal and automatically declares a winner at the end of the mentioned time frame.<br>
--   It is able to switch to the segment that wins statistically at the end of the experiment.</p>
-                            <p>View on <a href="https://github.com/sahildua2305/A-B-testing-PHP" id="git" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-3x"></i></a></p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
